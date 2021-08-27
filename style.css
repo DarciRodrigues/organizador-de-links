@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-instagram: #f2055c;
+    --color-email: ;
+    --color-linkedin: #049DD9;
+    --color-twitter: #0583F2;
+    --color-gitlab: #D93829;
+    --color-github: #000000;
+    --color-facebook: #0511F2;
+    --font-2: 'Heebo', sans-serif;
+    --font-1: 'Pacifico', cursive;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1562408590-e32931084e23?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    max-width: 500px;
+    max-height: 1040px;
+    background-color: rgba(245, 240, 240, 0.247);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(223, 217, 217, 0.726);
+    border-radius: 20px;
+    box-shadow: 2px 11px 3px rgb(46, 55, 184);
+}
+
+.card img {
+    width: 100px;
+
+    border-radius: 50%;
+}
+
+.card a {
+    font-family: var(--font-2);
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.instagram {
+    background-color: var(--color-instagram);
+    box-shadow: 0 3px #b80c4b;
+}
+
+.facebook {
+    background-color: var(--color-facebook);
+    box-shadow: 0 3px;
+}
+
+.twitter {
+    background-color: var(--color-twitter);
+    box-shadow: 0 3px;
+}
+
+.linkedin {
+    background-color: var(--color-linkedin);
+    box-shadow: 0 3px;
+}
+
+.github {
+    background-color: var(--color-github);
+    box-shadow: 0 3px;
+}
+
+.gitlab {
+    background-color: var(--color-gitlab);
+    box-shadow: 0 3px;
+}
+
+.email {
+    background-color: black;
+    box-shadow: 0 3px;
+}
+
+.fa {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
